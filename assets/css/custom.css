@@ -10,11 +10,24 @@
 {
     padding-left: 0;
     list-style: none;
+    margin-top: 10px;
 }
 
-#footer_wrap ul h2
+#footer_wrap ul li
+{
+    padding-bottom: 10px;
+}
+
+#footer_wrap ul li h2
 {
     background: none;
     margin: 0;
     padding: 0;
 }
+
+#footer_wrap ul li span
+{
+    color: #b7b7b7;
+}
+
+footer a { text-decoration: none; }

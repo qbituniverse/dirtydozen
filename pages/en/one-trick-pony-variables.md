@@ -1,5 +1,5 @@
 # II. One-trick pony variables
 
-## Don't ride it once, make sure to re-use
+### Don't ride just it once
 
 Content is coming... very, very soon...

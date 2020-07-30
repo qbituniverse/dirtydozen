@@ -10,12 +10,12 @@
 {
     padding-left: 0;
     list-style: none;
-    margin-top: 10px;
+    padding-top: 20px;
 }
 
 #footer_wrap ul li
 {
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 #footer_wrap ul li h2
@@ -29,5 +29,7 @@
 {
     color: #b7b7b7;
 }
+
+#footer_wrap .copyright { text-align: center; }
 
 footer a { text-decoration: none; }

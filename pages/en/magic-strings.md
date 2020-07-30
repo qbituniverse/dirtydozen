@@ -1,5 +1,5 @@
 # I. Magic strings
 
-## Set it once, maintain in one place, re-use everywhere
+### Don't lose it, re-use it
 
 Content is coming... very, very soon...

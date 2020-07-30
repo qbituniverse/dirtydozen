@@ -34,3 +34,5 @@
 #footer_wrap .copyright { text-align: center; }
 
 footer a { text-decoration: none; }
+
+#next, #previous--next, #previous { text-align: center; }

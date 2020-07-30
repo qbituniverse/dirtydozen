@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [Next >>](/pages/en/one-trick-pony-variables.md)
+### [Next >>](/pages/en/one-trick-pony-variables.html)

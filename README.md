@@ -1,37 +1,19 @@
-## Welcome to GitHub Pages
+## Introduction
 
-You can use the [editor on GitHub](https://github.com/qbituniverse/dirtydozen.dev/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Content is coming... very, very soon...
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Background
 
-### Markdown
+Content is coming... very, very soon...
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Who should read this document?
 
-```markdown
-Syntax highlighted code block
+Content is coming... very, very soon...
 
-# Header 1
-## Header 2
-### Header 3
+# dirtydozen.dev
 
-- Bulleted
-- List
+## [I. Magic strings](/pages/en/magic-strings.md)
+Set it once, maintain in one place, re-use everywhere
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/qbituniverse/dirtydozen.dev/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+## [II. One-trick pony variables](/pages/en/one-trick-pony-variables.md)
+Don't ride it once, make sure to re-use

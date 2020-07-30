@@ -1,17 +1,18 @@
-a { color: #ffffff; }
+#header_wrap a, #footer_wrap a { color: #ffffff; }
+#project_title { text-align: center; }
 
-.footer_wrap h1 
+#footer_wrap h1
 {
     color: #ffffff;
     text-align: center;
 }
-.footer_wrap ul
+#footer_wrap ul
 {
     padding-left: 0;
     list-style: none;
 }
 
-.footer_wrap ul h2
+#footer_wrap ul h2
 {
     background: none;
     margin: 0;

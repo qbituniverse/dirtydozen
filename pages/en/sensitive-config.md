@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/one-trick-pony-variables.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/over-configuration.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/one-trick-pony-variables.html) | [Next >>](https://dirtydozen.dev/pages/en/over-configuration.html)

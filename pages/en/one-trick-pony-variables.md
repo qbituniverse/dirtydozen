@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/magic-strings.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/sensitive-config.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html) | [Next >>](https://dirtydozen.dev/pages/en/sensitive-config.html)

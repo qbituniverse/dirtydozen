@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/no-inheritance.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/no-focus-on-clean-code.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/no-inheritance.html) | [Next >>](https://dirtydozen.dev/pages/en/no-focus-on-clean-code.html)

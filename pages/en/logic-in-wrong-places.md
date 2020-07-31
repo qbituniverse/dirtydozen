@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](/pages/en/too-many-comments.html) | [Next >>](/pages/en/not-using-using.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/too-many-comments.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/not-using-using.html)

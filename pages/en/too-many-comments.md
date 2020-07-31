@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](/pages/en/no-unit-tests.html) | [Next >>](/pages/en/logic-in-wrong-places.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/no-unit-tests.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/logic-in-wrong-places.html)

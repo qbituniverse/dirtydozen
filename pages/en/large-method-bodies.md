@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](/pages/en/over-configuration.html) | [Next >>](/pages/en/no-unit-tests.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/over-configuration.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/no-unit-tests.html)

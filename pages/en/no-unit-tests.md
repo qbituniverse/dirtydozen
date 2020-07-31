@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](/pages/en/large-method-bodies.html) | [Next >>](/pages/en/too-many-comments.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/large-method-bodies.html) | [Next >>](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/too-many-comments.html)

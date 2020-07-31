@@ -4,4 +4,4 @@
 
 Content is coming... very, very soon...
 
-### [<< Previous](/pages/en/writing-tooooo-generic-code.html)
+### [<< Previous](https://dirtydozen.dev/pages/en/magic-strings.html/pages/en/writing-tooooo-generic-code.html)

@@ -1,38 +1,123 @@
-#header_wrap a, #footer_wrap a { color: #ffffff; }
-#project_title { text-align: center; }
+a, #footer_copyright_wrap a {
+    color: #373737;
+    border-bottom: 1px dashed #373737;
+}
 
-#footer_wrap h1
+a:hover, #footer_copyright_wrap a:hover {
+    text-decoration: none;
+    color: #848484;
+    border-bottom: 1px dashed #848484;
+}
+
+h2 {
+    color: #848484;
+    font-weight: 400;
+    font-size: 25px;
+}
+
+code {
+    border: 1px solid #848484;
+}
+
+code table, code td {
+    border: none;
+}
+
+pre.highlight {
+    background-color: #fff;
+}
+
+pre.highlight code {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+pre.highlight td > pre {
+    box-shadow: none;
+}
+
+pre.highlight table {
+    margin: 0;
+}
+
+.inner {
+    max-width: 875px;
+}
+
+#header_wrap a, #footer_menu_wrap a { 
+    color: #fff; 
+    border: none;
+}
+
+#main_content {
+    padding-top: 20px;
+}
+
+#footer_menu_wrap a:hover { 
+    text-decoration: none;
+    color: #848484;
+    border-bottom: 1px dashed #848484;
+}
+
+#project_title { 
+    text-align: center;
+    font-size: 60px;
+}
+
+#footer_menu_wrap h1
 {
-    color: #ffffff;
+    color: #fff;
     text-align: center;
 }
-#footer_wrap ul
+#footer_menu_wrap ul
 {
     padding-left: 0;
     list-style: none;
     padding-top: 20px;
 }
 
-#footer_wrap ul li
+#footer_menu_wrap ul li
 {
     padding-bottom: 15px;
 }
 
-#footer_wrap ul li h2
+#footer_menu_wrap ul li h2
 {
     background: none;
-    margin: 0;
+    margin: 0 0 -5px 0;
     padding: 0;
     font-size: 26px;
 }
 
-#footer_wrap ul li span
+#footer_menu_wrap ul li span
 {
-    color: #b7b7b7;
+    color: #848484;
 }
 
-#footer_wrap .copyright { text-align: center; }
+#footer_copyright_wrap { 
+    color: #000;
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+#footer_copyright_wrap p { 
+    color: #373737;
+    text-align: center;
+    background-color: #f2f2f2;
+    width: 100%;
+}
 
 footer a { text-decoration: none; }
 
 #next, #previous--next, #previous { text-align: center; }
+
+.project_image {
+    background: url('/assets/images/ddd.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:60px;
+    height:60px;
+    margin: 0 auto;
+}

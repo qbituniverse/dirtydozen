@@ -1,4 +1,34 @@
 theme: jekyll-theme-slate
 google_analytics: UA-174145588-1
 plugins:
+  - jekyll-feed
   - jekyll-sitemap
+  - jekyll-seo-tag
+kramdown:
+  syntax_highlighter_opts:
+    default_lang: csharp
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+title: dirtydozen.dev
+tagline: 12 most common code smells!
+description: 12 most common code smells!
+url: https://dirtydozen.dev
+author: Marcin Narloch
+twitter:
+  username: marcinnarloch
+logo: /assets/images/ddd.png
+social:
+  name: Marcin Narloch
+  links:
+    - https://qbituniverse.com
+    - https://github.com/qbituniverse
+    - https://hub.docker.com/u/qbituniverse
+    - https://uk.linkedin.com/in/marcinnarloch
+    - https://twitter.com/marcinnarloch
+    - https://plainkube.dev
+    - https://platformops.dev
+    - https://www.youtube.com/channel/UC_FMMKbtmMbT4hCkX6SJWgA
+    - https://www.youtube.com/channel/UCCAUP6HwluG3Hi93fymVHUQ

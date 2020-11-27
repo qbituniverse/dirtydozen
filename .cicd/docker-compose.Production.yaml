@@ -1,0 +1,13 @@
+version: '3'
+services:
+  jekyll:
+    image: TBC
+    ports:
+      - 4000:4000
+    tty: true
+    networks:
+      - frontend
+
+networks:
+  frontend:
+    driver: bridge

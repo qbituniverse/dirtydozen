@@ -1,3 +1,9 @@
+---
+title: dirtydozen.dev
+description: 12 most common code smells!
+permalink: /
+---
+
 # Introduction
 
 In the current age `code` is written everywhere, quite literally everywhere, right? Financials, Automobile, Agriculture, Manufacturing and pretty much all other Industries big or small are to larger or lesser extent either producing code or at least consuming it in a compiled form. It could be argued that all modern businesses nowadays utilise code in some shape or form in order to `innovate` and quite frankly to `survive`.

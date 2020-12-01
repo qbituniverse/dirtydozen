@@ -1,12 +1,12 @@
 ---
 title: XI. Writing too generic code
-description: Don't try to solve all the world's problems at once
+description: Solving all problems at once
 permalink: /writing-too-generic-code/
 ---
 
 # XI. Writing too generic code
 
-## Don't try to solve all the world's problems at once
+## Solving all problems at once
 
 Writing code gives you great opportunity to create something that can be written to address a very specific problem - with a razor sharp focus. Without too much thought and design-time spent upfront, however, there's a risk that your code will be doing [too many different things](/logic-in-wrong-places). In the end code becomes `difficult to understand` as to what the purpose of it was in the first place.
 

@@ -1,12 +1,12 @@
 ---
 title: III. Sensitive config
-description: Don't share it with the rest of the world
+description: Don't share it with everyone
 permalink: /sensitive-config/
 ---
 
 # III. Sensitive config
 
-## Don't share it with the rest of the world
+## Don't share it with everyone
 
 Modern applications are built on the basis of small (distinct) components (microservices) interconnected with each other either at Networking ([REST](https://en.wikipedia.org/wiki/Representational_state_transfer), [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call)) level or Code Dependency ([Nuget](https://docs.microsoft.com/en-us/nuget/), [npm](https://www.npmjs.com/)) level. Often these `dependencies` will require some sort of authentication (who you are) as well as authorisation (what can you do) performed in order to consume these.
 

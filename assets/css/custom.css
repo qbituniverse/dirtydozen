@@ -12,7 +12,6 @@ a:hover, #footer_copyright_wrap a:hover {
 h2 {
     color: #848484;
     font-weight: 400;
-    font-size: 25px;
 }
 
 code {
@@ -62,7 +61,7 @@ pre.highlight table {
 
 #project_title { 
     text-align: center;
-    font-size: 3.5em;
+    font-size: 60px;
 }
 
 #footer_menu_wrap h1
@@ -87,7 +86,6 @@ pre.highlight table {
     background: none;
     margin: 0 0 -5px 0;
     padding: 0;
-    font-size: 26px;
 }
 
 #footer_menu_wrap ul li span
@@ -120,4 +118,12 @@ footer a { text-decoration: none; }
     width:60px;
     height:60px;
     margin: 0 auto;
+}
+
+@media screen and (max-width: 480px) { 
+    #project_title { font-size: 50px; } 
+}
+@media screen and (max-width: 320px) {
+    #project_title { font-size: 40px; }
+    code, pre { min-width: unset; max-width: unset; }
 }

@@ -1,12 +1,12 @@
 ---
 title: XII. No focus on clean code
-description: And that's why ditrydozen.dev was born
+description: That's why ditrydozen.dev is here
 permalink: /no-focus-on-clean-code/
 ---
 
 # XII. No focus on clean code
 
-## And that's why ditrydozen.dev was born
+## That's why ditrydozen.dev is here
 
 You have finally reached chapter 12th of the [ditrydozen.dev](/) list of the `12` most `dirty` and `common` code mistakes programmers tend to make over and over again.
 

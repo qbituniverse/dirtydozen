@@ -10,7 +10,7 @@ permalink: /writing-too-generic-code/
 
 Writing code gives you great opportunity to create something that can be written to address a very specific problem - with a razor sharp focus. Without too much thought and design-time spent upfront, however, there's a risk that your code will be doing [too many different things](/logic-in-wrong-places). In the end code becomes `difficult to understand` as to what the purpose of it was in the first place.
 
-> This is often linked to the [over configuration](/over-configuration) and [no unit tests](/no-unit-tests) dirty `code smells`. Code effectively is written with no safety net and thought. That is often accompanied with `tons of config` that only the *programmer* producing it really understood (only at the time of writing it - of course).
+> This is often related to the [over configuration](/over-configuration) and [no unit tests](/no-unit-tests) dirty `code smells`. Code effectively is written with no safety net and thought. It's also accompanied with `tons of config` that only the *programmer* producing it really understood (only at the time of writing it - of course).
 
 Let's consider this high-level code for a hypothetical *Data API Endpoint*:
 

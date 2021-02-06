@@ -8,8 +8,8 @@ services:
       - ../:/usr/src/app
     tty: true
     networks:
-      - frontend
+      - dirtydozen.dev
 
 networks:
-  frontend:
+  dirtydozen.dev:
     driver: bridge

@@ -6,8 +6,8 @@ services:
       - 4000:4000
     tty: true
     networks:
-      - frontend
+      - dirtydozen.dev
 
 networks:
-  frontend:
+  dirtydozen.dev:
     driver: bridge

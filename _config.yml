@@ -12,14 +12,14 @@ kramdown:
       line_numbers: false
     block:
       line_numbers: true
-title: dirtydozen.dev
+title: dirtydozen
 tagline: 12 most common code smells!
 description: 12 most common code smells!
-url: https://dirtydozen.dev
+url: https://qbituniverse.github.io/dirtydozen
 author: Marcin Narloch
 twitter:
   username: marcinnarloch
-logo: /assets/images/ddd.png
+logo: /assets/images/dirty-dozen.png
 lang: en-GB
 social:
   name: Marcin Narloch

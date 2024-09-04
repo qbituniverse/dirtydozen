@@ -116,7 +116,7 @@ footer a { text-decoration: none; }
 #next, #previous--next, #previous { text-align: center; }
 
 .project_image {
-    background: url('/assets/images/ddd.png');
+    background: url('/assets/images/dirty-dozen.png');
     background-repeat: no-repeat;
     background-size: cover;
     width:60px;

@@ -1,5 +1,5 @@
 ---
-title: dirtydozen.dev
+title: dirtydozen
 description: 12 most common code smells!
 permalink: /
 ---
@@ -14,11 +14,11 @@ Guidance in this resource can be applied with `any programming language` and `an
 
 # Background
 
-The primary reason why `dirtydozen.dev` is here is because almost all common programming mistakes just keep occurring - repeatedly! Therefore, the idea was to document these mistakes and make the result of this process widely available to help everyone produce `clean code`.
+The primary reason why `dirtydozen` is here is because almost all common programming mistakes just keep occurring - repeatedly! Therefore, the idea was to document these mistakes and make the result of this process widely available to help everyone produce `clean code`.
 
-Why `dirtydozen.dev`, well, there's no hiding from the fact that the idea behind it is somehow derived from an excellent resource, methodology for that matter, known as [The Twelve-Factor App](https://12factor.net/). I'm sure most self-respecting programmers or operations individuals are, in fact should, be aware of it.
+Why `dirtydozen`, well, there's no hiding from the fact that the idea behind it is somehow derived from an excellent resource, methodology for that matter, known as [The Twelve-Factor App](https://12factor.net/). I'm sure most self-respecting programmers or operations individuals are, in fact should, be aware of it.
 
-While [The Twelve-Factor App](https://12factor.net/) is a recipe for writing highly scalable and performing applications. The `dirtydozen.dev` on the other hand is a catalogue of most common `dirty code smells` that should be avoided as far as `code quality` is concerned.
+While [The Twelve-Factor App](https://12factor.net/) is a recipe for writing highly scalable and performing applications. The `dirtydozen` on the other hand is a catalogue of most common `dirty code smells` that should be avoided as far as `code quality` is concerned.
 
 # Who should read this document?
 

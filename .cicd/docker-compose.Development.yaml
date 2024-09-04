@@ -8,8 +8,8 @@ services:
       - ../:/usr/src/app
     tty: true
     networks:
-      - dirtydozen.dev
+      - dirtydozen
 
 networks:
-  dirtydozen.dev:
+  dirtydozen:
     driver: bridge

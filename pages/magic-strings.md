@@ -1,7 +1,7 @@
 ---
 title: I. Magic strings
 description: Don't lose it, re-use it
-permalink: /magic-strings/
+permalink: ./magic-strings/
 ---
 
 # I. Magic strings
@@ -122,7 +122,7 @@ namespace CoffeShop
 
 With the changes above our code has now got simplified where `Magic strings` are managed and defined in one place, the *CoffeeHelper* class [lines 3:22]. From that point onwards we reference our `constants` in *CoffeeMaker* class [lines 24:35]. 
 
-As an added bonus, that class is now [serving a specific purpose](/logic-in-wrong-places) in our codebase, it's [small enough to maintain](/large-method-bodies) and [unit test](/no-unit-tests).
+As an added bonus, that class is now [serving a specific purpose](./logic-in-wrong-places) in our codebase, it's [small enough to maintain](./large-method-bodies) and [unit test](./no-unit-tests).
 
 ## Summary
 
@@ -130,4 +130,4 @@ And now if I had to fix that "cappucino" typo I only need to go to one place to 
 
 > Now, that's what I call `Magic...`
 
-### [Next >>](/one-trick-pony-variables)
+### [Next >>](./one-trick-pony-variables)

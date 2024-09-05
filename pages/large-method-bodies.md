@@ -1,7 +1,7 @@
 ---
 title: V. Large method bodies
 description: Count the lines, not pounds
-permalink: /large-method-bodies/
+permalink: ./large-method-bodies/
 ---
 
 # V. Large method bodies
@@ -89,9 +89,9 @@ public void CompleteCheckout(Customer customer, Basket basket)
 There's a lot going on inside of that method above, right? Pretty much the entire checkout process is coded in that one single method [lines 1:69]. This is effectively an example of a `Large method bodies` syndrome, where the method itself doesn’t even fit on one decent computer screen. Furthermore, number of side effects of such technique surface up here:
 
 > 1. Code is difficult to follow due to `too many lines`
-> 2. As result of above, programmer had to [introduce comments](/too-many-comments) in order to explain what's going on there
+> 2. As result of above, programmer had to [introduce comments](./too-many-comments) in order to explain what's going on there
 > 3. Code is difficult to debug
-> 4. As result of above, programmer wasn't able to create suitable [unit tests](/no-unit-tests)
+> 4. As result of above, programmer wasn't able to create suitable [unit tests](./no-unit-tests)
 > 5. As result of all above, the code is prone to produce bugs and random behaviour taking hours to troubleshoot and fix
 
 ## Solution
@@ -116,7 +116,7 @@ public void CompleteCheckout(Customer customer, Basket basket)
 }
 ```
 
-In the sample above the programmer has broken the code down into testable chunks [lines 3, 4, 5, 9, 12, 13], therefore, opening a window for [unit testing](/no-unit-tests) of the entire checkout process. Each method is now testable and runs in isolation. This approach has also opened up these methods for `re-use` in other parts of the same project or even in other projects.
+In the sample above the programmer has broken the code down into testable chunks [lines 3, 4, 5, 9, 12, 13], therefore, opening a window for [unit testing](./no-unit-tests) of the entire checkout process. Each method is now testable and runs in isolation. This approach has also opened up these methods for `re-use` in other parts of the same project or even in other projects.
 
 ## Summary
 
@@ -124,4 +124,4 @@ If you have to scroll a lot to read a single method or you notice overuse of com
 
 > Start `slimming and breaking code down` before it's too late... 
 
-### [<< Previous](/over-configuration) | [Next >>](/no-unit-tests)
+### [<< Previous](./over-configuration) | [Next >>](./no-unit-tests)

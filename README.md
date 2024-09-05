@@ -1,7 +1,7 @@
 ---
 title: dirtydozen
 description: 12 most common code smells!
-permalink: /
+permalink: ./
 ---
 
 # Introduction

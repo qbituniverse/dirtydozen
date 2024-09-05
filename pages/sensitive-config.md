@@ -1,7 +1,7 @@
 ---
 title: III. Sensitive config
 description: Don't share it with everyone
-permalink: /sensitive-config/
+permalink: ./sensitive-config/
 ---
 
 # III. Sensitive config
@@ -34,7 +34,7 @@ When it becomes `seriously bad news` is when these keys make their way into `Pub
 
 > Sensitive config exposure to the rest of the World! Imagine what could happen if your sensitive config got into `unwanted hands`.
 
-The above is especially true with applications which tend to be [too generic in nature](/writing-too-generic-code) which then leads into [over configuration](/over-configuration) symptoms. Lesser impact of the sensitive config issue is on the `Private Repositories`.
+The above is especially true with applications which tend to be [too generic in nature](./writing-too-generic-code) which then leads into [over configuration](./over-configuration) symptoms. Lesser impact of the sensitive config issue is on the `Private Repositories`.
 
 > However, a good practice would dictate to avoid storing such config in code repos whenever possible.
 
@@ -86,4 +86,4 @@ It only takes one innocent [Pull Request (PR)](https://docs.github.com/en/free-p
 
 > However, now you know how to prevent your `Sensitive config` from being shared with `the rest of the World...`
 
-### [<< Previous](/one-trick-pony-variables) | [Next >>](/over-configuration)
+### [<< Previous](./one-trick-pony-variables) | [Next >>](./over-configuration)

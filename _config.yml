@@ -19,7 +19,7 @@ url: https://qbituniverse.github.io/dirtydozen
 author: Marcin Narloch
 twitter:
   username: marcinnarloch
-logo: /assets/images/dirty-dozen.png
+logo: ./assets/images/dirty-dozen.png
 lang: en-GB
 social:
   name: Marcin Narloch

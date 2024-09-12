@@ -72,9 +72,9 @@ public class InvoiceEngine
 }
 ```
 
-With the change above we can `instantiate the purpose built classes` *EmailEngine* & *InvoiceEngine* inside *ShoppingCart* class [lines 3, 4]. Furthermore, we can now [unit test](./no-unit-tests) these classes as well as re-use these somewhere else in our codebase. Potentially even move these to [Nuget](https://docs.microsoft.com/en-us/nuget/) repository for even wider `re-use`.
+With the change above we can `instantiate the purpose built classes` *EmailEngine* & *InvoiceEngine* inside *ShoppingCart* class [lines 3, 4]. Furthermore, we can now [unit test](/no-unit-tests) these classes as well as re-use these somewhere else in our codebase. Potentially even move these to [Nuget](https://docs.microsoft.com/en-us/nuget/) repository for even wider `re-use`.
 
-The change also takes us step closer towards more powerful concepts in programming such as [inheritance](./no-inheritance) and [Object oriented programming (OO, OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming).
+The change also takes us step closer towards more powerful concepts in programming such as [inheritance](/no-inheritance) and [Object oriented programming (OO, OOP)](https://en.wikipedia.org/wiki/Object-oriented_programming).
 
 ## Summary
 
@@ -82,4 +82,4 @@ If a certain *class* serves `too many purposes` then it's probably overcomplicat
 
 > Give the [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single-responsibility_principle) a go here...
 
-### [<< Previous](./too-many-comments) | [Next >>](./not-using-using)
+### [<< Previous](/too-many-comments) | [Next >>](/not-using-using)

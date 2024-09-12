@@ -8,7 +8,7 @@ permalink: ./not-using-using/
 
 ## Who is destroying it then?
 
-Certain programmatic operations, such as reading files or making [HTTP API](https://en.wikipedia.org/wiki/Web_API) calls over the network would require you to instantiate objects in order to achieve it. As with everything in programming, these objects or [variables](./one-trick-pony-variables) will `require memory` to function properly.
+Certain programmatic operations, such as reading files or making [HTTP API](https://en.wikipedia.org/wiki/Web_API) calls over the network would require you to instantiate objects in order to achieve it. As with everything in programming, these objects or [variables](/one-trick-pony-variables) will `require memory` to function properly.
 
 For example consider the following *HttpClient()* call:
 
@@ -51,4 +51,4 @@ You don't have to write any special code these days in order to ensure your obje
 
 > `Using` the `using` is as straightforward as `typing using` so no excuse really should be made for `not using it...`
 
-### [<< Previous](./logic-in-wrong-places) | [Next >>](./no-inheritance)
+### [<< Previous](/logic-in-wrong-places) | [Next >>](/no-inheritance)

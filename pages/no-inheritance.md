@@ -73,7 +73,7 @@ merc.StartUp();
 merc.Park();
 ```
 
-And so on... new Class per new *Car* model... your code will quickly start getting out of control, particularly when it comes to [mocking](https://en.wikipedia.org/wiki/Mock_object) and [unit testing](./no-unit-tests). Also, the approach above brings the risk of [defining logic in wrong places](./logic-in-wrong-places) as well as writing [methods that are too large](./large-method-bodies) to maintain going forward.
+And so on... new Class per new *Car* model... your code will quickly start getting out of control, particularly when it comes to [mocking](https://en.wikipedia.org/wiki/Mock_object) and [unit testing](/no-unit-tests). Also, the approach above brings the risk of [defining logic in wrong places](/logic-in-wrong-places) as well as writing [methods that are too large](/large-method-bodies) to maintain going forward.
 
 > As programmers, we want to able treat all cars as the `same objects` preserving and re-using their `core functionality`. 
 
@@ -184,4 +184,4 @@ The examples presented here are literally scratching the surface of `many benefi
 
 > Simply start using `interfaces` in your code and begin future proofing your apps now...
 
-### [<< Previous](./not-using-using) | [Next >>](./writing-too-generic-code)
+### [<< Previous](/not-using-using) | [Next >>](/writing-too-generic-code)

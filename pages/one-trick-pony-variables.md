@@ -18,7 +18,7 @@ var isActive = true;
 var temperature = 36.6;
 ```
 
-> Using variables the right way is a fine balance, which you as programmer, need to strike between [readable code](./too-many-comments) and [memory utilisation](./not-using-using). 
+> Using variables the right way is a fine balance, which you as programmer, need to strike between [readable code](/too-many-comments) and [memory utilisation](/not-using-using). 
 
 Let's consider this code below which in isolation doesn't look too bad, right?
 
@@ -63,7 +63,7 @@ What stands out in this code is that we have a number of `One-trick-pony variabl
 
 ## Solution
 
-Let's re-use some of the data that is already available to us in code and prevent instantiating `One-trick-pony variables` unnecessarily. As result, the code will run faster and will be [more readable](./too-many-comments).
+Let's re-use some of the data that is already available to us in code and prevent instantiating `One-trick-pony variables` unnecessarily. As result, the code will run faster and will be [more readable](/too-many-comments).
 
 ##### Variation 1 - Reduction in variable use
 
@@ -114,8 +114,8 @@ Consider code above now where we've gotten rid of the `One-trick-pony variables`
 
 ## Summary
 
-I understand that assigning a small variable seems innocent at the time of coding and sometimes doing so might be required for [clarity](./too-many-comments).
+I understand that assigning a small variable seems innocent at the time of coding and sometimes doing so might be required for [clarity](/too-many-comments).
 
 > However, try not to get into a bad habit of creating too many of these `One-trick-pony variables unnecessarily...`
 
-### [<< Previous](./magic-strings) | [Next >>](./sensitive-config)
+### [<< Previous](/magic-strings) | [Next >>](/sensitive-config)

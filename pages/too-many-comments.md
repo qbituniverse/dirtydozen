@@ -98,9 +98,9 @@ public void CompleteCheckout(Customer customer, Basket basket)
 
 ## Problem Statement
 
-The block of code above shows a number of potential avenues for refactoring. For starters, the [method body is very large](./large-method-bodies) [lines 1:69] making the code very difficult to follow. Hence, the programmer introduced an excessive use of `Too many comments` in order to explain almost line-by-line what's going on there.
+The block of code above shows a number of potential avenues for refactoring. For starters, the [method body is very large](/large-method-bodies) [lines 1:69] making the code very difficult to follow. Hence, the programmer introduced an excessive use of `Too many comments` in order to explain almost line-by-line what's going on there.
 
-Secondly, it's impossible to debug and [unit test](./no-unit-tests) this code due to its complexity.
+Secondly, it's impossible to debug and [unit test](/no-unit-tests) this code due to its complexity.
 
 ## Solution
 
@@ -110,7 +110,7 @@ If you feel like you are writing an essay rather than compact piece of code, the
 
 If the answer is *Yes* then you are on the right path. If your answer is *No* then it'd be best you stop and refactor your work before it makes its way into Production.
 
-For example, consider [smaller methods](./large-method-bodies) and if necessary [restructure the logic](./logic-in-wrong-places). Perhaps only consider `clarification comments` and let the code flow explain itself as the example below demonstrates.
+For example, consider [smaller methods](/large-method-bodies) and if necessary [restructure the logic](/logic-in-wrong-places). Perhaps only consider `clarification comments` and let the code flow explain itself as the example below demonstrates.
 
 ```csharp
 /// <summary>
@@ -143,4 +143,4 @@ Code is normally written to fulfil a `specific purpose`. If that purpose has to 
 
 > And if you are still fond of writing essays, then it's best you open [Word](https://www.microsoft.com/en-gb/microsoft-365/word) and take it from there...
 
-### [<< Previous](./no-unit-tests) | [Next >>](./logic-in-wrong-places)
+### [<< Previous](/no-unit-tests) | [Next >>](/logic-in-wrong-places)

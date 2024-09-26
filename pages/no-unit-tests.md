@@ -30,7 +30,7 @@ There's nothing extraordinary about the piece of code above, it simply multiplie
 > 2. Zone must be integer within 1 - 7 range
 > 3. Distance must be positive number of double data type
 
-In modern day the requirement above would be translated into a `unit test` for which [structured](/logic-in-wrong-places) and [testable](/large-method-bodies) code would be produced to ensure it meets the requirement.
+In modern day the requirement above would be translated into a `unit test` for which [structured](logic-in-wrong-places.md) and [testable](large-method-bodies.md) code would be produced to ensure it meets the requirement.
 
 ## Solution
 
@@ -161,4 +161,4 @@ And now when you make future code changes to the *CalculatePostageCost* method a
 
 > It's like with the headlights, you `keep the headlights on` while driving in the dark, otherwise you won't really know where the next turn will take you...
 
-### [<< Previous](/large-method-bodies) | [Next >>](/too-many-comments)
+### [<< Previous](large-method-bodies.md) | [Next >>](too-many-comments.md)

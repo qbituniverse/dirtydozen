@@ -8,7 +8,7 @@ permalink: ./no-focus-on-clean-code/
 
 ## That's why ditrydozen is here
 
-You have finally reached chapter 12th of the [ditrydozen](/) list of the `12` most `dirty` and `common` code mistakes programmers tend to make over and over again.
+You have finally reached chapter 12th of the `ditrydozen` list of the `12` most `dirty` and `common` code mistakes programmers tend to make over and over again.
 
 All of the mistakes described on this website stem from `one and only one underlying cause`, which is:
 
@@ -30,7 +30,7 @@ Just keep an eye on these `code smells`. There are tools out there, such as [ReS
 
 For multi-language static code analysis you can try [SonarQube](https://www.sonarqube.org/) or reference this [List of tools for static code analysis](https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis).
 
-Finally, clean and structured code is just one thing to bear in mind. `Smelly code` has the bad tendency of exposing your application to [Cyberattacks](https://en.wikipedia.org/wiki/Cyberattack) which can potentially damage your career progression as well as your organisation. [OWASP](https://owasp.org/) is a non-profit foundation which works on [improving the security of software](https://owasp.org/www-community/Source_Code_Analysis_Tools). I strongly suggest to explore it in addition to the [ditrydozen](/) resources.
+Finally, clean and structured code is just one thing to bear in mind. `Smelly code` has the bad tendency of exposing your application to [Cyberattacks](https://en.wikipedia.org/wiki/Cyberattack) which can potentially damage your career progression as well as your organisation. [OWASP](https://owasp.org/) is a non-profit foundation which works on [improving the security of software](https://owasp.org/www-community/Source_Code_Analysis_Tools). I strongly suggest to explore it in addition to the `ditrydozen` resources.
 
 ## Summary
 

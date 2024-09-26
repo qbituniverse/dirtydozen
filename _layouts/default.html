@@ -15,15 +15,15 @@
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,maximum-scale=2">
-    <link rel="apple-touch-icon" sizes="72x72" href="/assets/images/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon-16x16.png">
-    <link rel="mask-icon" href="/assets/images/safari-pinned-tab.svg" color="#5bbad5">
-    <link rel="manifest" href="/site.webmanifest">
+    <link rel="apple-touch-icon" sizes="72x72" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ '/assets/images/favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ '/assets/images/favicon-16x16.png' | relative_url }}">
+    <link rel="mask-icon" href="{{ '/assets/images/safari-pinned-tab.svg' | relative_url }}" color="#5bbad5">
+    <link rel="manifest" href="{{ '/site.webmanifest' | relative_url }}">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/custom.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="{{ '/assets/css/custom.css?v=' | append: site.github.build_revision | relative_url }}">
     {% seo %}
   </head>
 
@@ -31,7 +31,7 @@
 
     <div id="header_wrap" class="outer">
         <header class="inner">
-          <h1 id="project_title"><a href="/"><div class="project_image">&nbsp;</div>dirtydozen</a></h1>
+          <h1 id="project_title"><a href="{{ '/' | relative_url }}"><div class="project_image">&nbsp;</div>dirtydozen</a></h1>
         </header>
     </div>
 
@@ -44,25 +44,25 @@
     <div id="footer_menu_wrap" class="outer">
       <footer class="inner">
         <ul>
-          <li><h2><a href="/magic-strings">I. Magic strings</a></h2><span>Don't lose it, re-use it</span></li>
-          <li><h2><a href="/one-trick-pony-variables">II. One-trick-pony variables</a></h2><span>Don't ride it just once</span></li>
-          <li><h2><a href="/sensitive-config">III. Sensitive config</a></h2><span>Don't share it with everyone</span></li>
-          <li><h2><a href="/over-configuration">IV. Over configuration</a></h2><span>Keep things simple</span></li>
-          <li><h2><a href="/large-method-bodies">V. Large method bodies</a></h2><span>Count the lines, not pounds</span></li>
-          <li><h2><a href="/no-unit-tests">VI. No unit tests</a></h2><span>Driving without headlights</span></li>
-          <li><h2><a href="/too-many-comments">VII. Too many comments</a></h2><span>Code should tell you the story</span></li>
-          <li><h2><a href="/logic-in-wrong-places">VIII. Logic in wrong places</a></h2><span>Keep it structured</span></li>
-          <li><h2><a href="/not-using-using">IX. Not using "using"</a></h2><span>Who is destroying it then?</span></li>
-          <li><h2><a href="/no-inheritance">X. No inheritance</a></h2><span>Going it alone</span></li>
-          <li><h2><a href="/writing-too-generic-code">XI. Writing too generic code</a></h2><span>Solving all problems at once</span></li>
-          <li><h2><a href="/no-focus-on-clean-code">XII. No focus on clean code</a></h2><span>That's why ditrydozen.dev is here</span></li>
+          <li><h2><a href="{{ '/magic-strings' | relative_url }}">I. Magic strings</a></h2><span>Don't lose it, re-use it</span></li>
+          <li><h2><a href="{{ '/one-trick-pony-variables' | relative_url }}">II. One-trick-pony variables</a></h2><span>Don't ride it just once</span></li>
+          <li><h2><a href="{{ '/sensitive-config' | relative_url }}">III. Sensitive config</a></h2><span>Don't share it with everyone</span></li>
+          <li><h2><a href="{{ '/over-configuration' | relative_url }}">IV. Over configuration</a></h2><span>Keep things simple</span></li>
+          <li><h2><a href="{{ '/large-method-bodies' | relative_url }}">V. Large method bodies</a></h2><span>Count the lines, not pounds</span></li>
+          <li><h2><a href="{{ '/no-unit-tests' | relative_url }}">VI. No unit tests</a></h2><span>Driving without headlights</span></li>
+          <li><h2><a href="{{ '/too-many-comments' | relative_url }}">VII. Too many comments</a></h2><span>Code should tell you the story</span></li>
+          <li><h2><a href="{{ '/logic-in-wrong-places' | relative_url }}">VIII. Logic in wrong places</a></h2><span>Keep it structured</span></li>
+          <li><h2><a href="{{ '/not-using-using' | relative_url }}">IX. Not using "using"</a></h2><span>Who is destroying it then?</span></li>
+          <li><h2><a href="{{ '/no-inheritance' | relative_url }}">X. No inheritance</a></h2><span>Going it alone</span></li>
+          <li><h2><a href="{{ '/writing-too-generic-code' | relative_url }}">XI. Writing too generic code</a></h2><span>Solving all problems at once</span></li>
+          <li><h2><a href="{{ '/no-focus-on-clean-code' | relative_url }}">XII. No focus on clean code</a></h2><span>That's why ditrydozen.dev is here</span></li>
         </ul>
       </footer>
     </div>
 
     <div id="footer_copyright_wrap" class="outer">
       <footer class="inner">
-        <p><a href="/">dirtydozen</a> maintained by <a href="https://www.linkedin.com/in/marcinnarloch" target="_blank">Marcin Narloch</a> from <a href="https://qbituniverse.com" target="_blank">qbituniverse.com</a> source code on <a href="https://github.com/qbituniverse/dirtydozen" target="_blank">GitHub</a></p>
+        <p><a href="{{ '/' | relative_url }}">dirtydozen</a> maintained by <a href="https://www.linkedin.com/in/marcinnarloch" target="_blank">Marcin Narloch</a> from <a href="https://qbituniverse.com" target="_blank">qbituniverse.com</a> source code on <a href="https://github.com/qbituniverse/dirtydozen" target="_blank">GitHub</a></p>
       </footer>
     </div>
     

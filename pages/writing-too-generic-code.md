@@ -8,9 +8,9 @@ permalink: ./writing-too-generic-code/
 
 ## Solving all problems at once
 
-Writing code gives you great opportunity to create something that can be written to address a very specific problem - with a razor sharp focus. Without too much thought and design-time spent upfront, however, there's a risk that your code will be doing [too many different things](/logic-in-wrong-places). In the end code becomes `difficult to understand` as to what the purpose of it was in the first place.
+Writing code gives you great opportunity to create something that can be written to address a very specific problem - with a razor sharp focus. Without too much thought and design-time spent upfront, however, there's a risk that your code will be doing [too many different things](logic-in-wrong-places.md). In the end code becomes `difficult to understand` as to what the purpose of it was in the first place.
 
-> This is often related to the [over configuration](/over-configuration) and [no unit tests](/no-unit-tests) dirty `code smells`. Code effectively is written with no safety net and thought. It's also accompanied with `tons of config` that only the *programmer* producing it really understood (only at the time of writing it - of course).
+> This is often related to the [over configuration](over-configuration.md) and [no unit tests](no-unit-tests.md) dirty `code smells`. Code effectively is written with no safety net and thought. It's also accompanied with `tons of config` that only the *programmer* producing it really understood (only at the time of writing it - of course).
 
 Let's consider this high-level code for a hypothetical *Data API Endpoint*:
 
@@ -49,11 +49,11 @@ https://data.api.com?selectParameter=shoppingCartDataSelect
 https://data.api.com?selectParameter=productDataSelect
 ```
 
-It's hard to believe the above could actually happen, but yes, it does happen when proper [logic separation](/logic-in-wrong-places) is not in place and [SOLID principles](https://en.wikipedia.org/wiki/SOLID) are not considered at all.
+It's hard to believe the above could actually happen, but yes, it does happen when proper [logic separation](logic-in-wrong-places.md) is not in place and [SOLID principles](https://en.wikipedia.org/wiki/SOLID) are not considered at all.
 
 ## Solution
 
-Simply divide your code into [reusable](/logic-in-wrong-places) and hence [testable](/no-unit-tests) components. Moreover, when it comes to designing APIs consider the concept of [Data, context and interaction](https://en.wikipedia.org/wiki/Data,_context_and_interaction).
+Simply divide your code into [reusable](logic-in-wrong-places.md) and hence [testable](no-unit-tests.md) components. Moreover, when it comes to designing APIs consider the concept of [Data, context and interaction](https://en.wikipedia.org/wiki/Data,_context_and_interaction).
 
 Our hypothetical example could now be divided into three separate `controllers` and `services` serving the `data` back to clients.
 
@@ -77,7 +77,7 @@ public async Task<IActionResult> GetProducts() { ... }
 public async Task<List<Product>> RetrieveProducts() { ... }
 ```
 
-As far as [config](/over-configuration) is concerned, it's now just a single database connection entry and the rest of `database connectivity` logic and `data manipulation` is handled in database framework, such as [Microsoft Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/).
+As far as [config](over-configuration.md) is concerned, it's now just a single database connection entry and the rest of `database connectivity` logic and `data manipulation` is handled in database framework, such as [Microsoft Entity Framework Core](https://docs.microsoft.com/en-us/ef/core/).
 
 ```json
 {
@@ -91,4 +91,4 @@ Don't try to be clever and `don't over engineer` your code. We all know well tha
 
 > Simply try to apply `common sense` and `standards` in your coding and you'll do just great!
 
-### [<< Previous](/no-inheritance) | [Next >>](/no-focus-on-clean-code)
+### [<< Previous](no-inheritance.md) | [Next >>](no-focus-on-clean-code.md)
